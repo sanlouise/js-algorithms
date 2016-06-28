@@ -14,11 +14,9 @@ function deleteDuplicate(arr) {
 			exists[element] = true;
 		}
 	}
-
 	return array;
 }
 
-var firstArray = [2, 3, 2, 5, 4, 2, 3, 5, 6]
-
+var firstArray = [2, 3, 2, 5, 4, 2, 3, 5, 6];
 console.log(deleteDuplicate(firstArray));
 
