@@ -23,4 +23,4 @@ function bubble_sort(array) {
   return array;
 }
 
-console.log(bubble_sort(unsortedArray);
+bubble_sort(unsortedArray);
