@@ -2,11 +2,17 @@
 
 function gcd( a, b ) {
 
-	//Convert to positive inetgers
+	//Convert to positive integers
     if (a < 0) a = -a;
     if (b < 0) b = -b;
 
-    if (b > a) {var temp = a; a = b; b = temp;}
+    if (b > a) {
+    	var temp = a; 
+    	a = b; 
+    	b = temp;
+
+    }
+
     if (b == 0) return a;
     a %= b;
     if (a == 0) return b;
@@ -14,4 +20,4 @@ function gcd( a, b ) {
 
 }
 
-console.log(gcd(66, 11));
+console.log(gcd(66, 6));

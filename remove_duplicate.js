@@ -20,3 +20,5 @@ function deleteDuplicate(arr) {
 var firstArray = [2, 3, 2, 5, 4, 2, 3, 5, 6];
 console.log(deleteDuplicate(firstArray));
 
+
+
