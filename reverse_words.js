@@ -14,4 +14,4 @@ for (var x = i;x >=0 ; x--){
     reversedwords +=(words.charAt(x));
 }
 
-alert(reversedwords) 
+alert(reversedwords);
