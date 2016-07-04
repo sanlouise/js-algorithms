@@ -6,12 +6,11 @@ function reverseWords(string) {
 
 var words = "My name is Sandra"
 
-var i=words.length;
-i=i-1;
-var reversedwords=""; 
+var i= words.length - 1;
+var reversedwords = " "; 
 
 for (var x = i;x >=0 ; x--){
     reversedwords +=(words.charAt(x));
 }
 
-alert(reversedwords);
+console.log(reversedwords)
