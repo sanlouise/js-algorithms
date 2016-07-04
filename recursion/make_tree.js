@@ -1,3 +1,5 @@
+//https://vasco3.gitbooks.io/hacks-n-notes/content/javascript/functional-programming/recursion.html
+
 let categories = [
   {id: 'animals', 'parent': null },
   {id: 'mammals', 'parent': 'animals' },
